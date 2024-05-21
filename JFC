@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2em;
+            margin: 1em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .images img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio Pessoal</h1>
+    </header>
+    <nav>
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#contactos">Contactos</a>
+        <a href="#imagens">Imagens</a>
+        <a href="#artigos">Artigos</a>
+    </nav>
+    <div class="container">
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>Escreva aqui uma breve descrição sobre você, suas habilidades, experiência e interesses.</p>
+        </section>
+        <section id="contactos">
+            <h2>Contactos</h2>
+            <p>Email: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+            <p>Telefone: +351 123 456 789</p>
+        </section>
+        <section id="imagens">
+            <h2>Imagens</h2>
+            <div class="images">
+                <img src="imagem1.jpg" alt="Descrição da Imagem 1">
+                <img src="imagem2.jpg" alt="Descrição da Imagem 2">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+        </section>
+        <section id="artigos">
+            <h2>Artigos</h2>
+            <article>
+                <h3>Título do Artigo 1</h3>
+                <p>Resumo ou introdução do artigo 1.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <article>
+                <h3>Título do Artigo 2</h3>
+                <p>Resumo ou introdução do artigo 2.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <!-- Adicione mais artigos conforme necessário -->
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
